@@ -21,10 +21,9 @@ public class LabSession extends Session {
 	public ArrayList<Tutor> getTutors() {
 		return tutors;
 	}
+	
 	public void addTutor(Tutor t) {
 		tutors.add(t);
 	}
 	
-
-
 }
